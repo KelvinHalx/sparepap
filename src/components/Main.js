@@ -26,7 +26,7 @@ function Main() {
                                 <div className='row'>
                                     <div className='col-md-4'>
                                     <div className='card shadow-lg'>
-                                        <img src='https://picsum.photos/200/300' className='card-img-top img-fluid' 
+                                        <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' 
                                         width={100} height={30} alt='...' />
                                     <div className='card-body'>
                                         Products
@@ -36,7 +36,7 @@ function Main() {
                                     </div>
                                     <div className='col-md-4'>
                                     <div className='card shadow-lg'>
-                                    <img src='https://picsum.photos/200/300' className='card-img-top img-fluid' 
+                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' 
                                         width={100} height={30} alt='...' />
                                     <div className='card-body'>
                                         <div>
@@ -53,8 +53,9 @@ function Main() {
 
                                     <div className='col-md-4'>
                                     <div className='card shadow-lg'>
-                                    <img src='https://picsum.photos/200/300' className='card-img-top img-fluid' 
-                                        width={100} height={30} alt='...' />
+                                        <div className='prod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    </div>
                                     <div className='card-body'>
                                         Products
 
