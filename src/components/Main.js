@@ -174,7 +174,260 @@ function Main() {
                                     </div>
                                 </div>
                                     </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                        <div className='prod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='text-wrapper'>
+                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
+                                            <p className='card-text p-title'>Ksh. 1159.00
+                                                <span className='card-text text-muted p-span'>incl.VAT</span>
+                                            </p>
+                                        </div>
+                                        <div className='btn-wrapper'>
+                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
+                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
+                                        </div>
+                                        <div className=''>
+                                        <p className='card-text f-text text-success'>In stock.
+                                                <span className='card-text text-muted f-span'>Low stock</span>
+                                            </p>
+                                        </div>
 
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                        <div className='prod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='text-wrapper'>
+                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
+                                            <p className='card-text p-title'>Ksh. 1159.00
+                                                <span className='card-text text-muted p-span'>incl.VAT</span>
+                                            </p>
+                                        </div>
+                                        <div className='btn-wrapper'>
+                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
+                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
+                                        </div>
+                                        <div className=''>
+                                        <p className='card-text f-text text-success'>In stock.
+                                                <span className='card-text text-muted f-span'>Low stock</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                        <div className='prod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='text-wrapper'>
+                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
+                                            <p className='card-text p-title'>Ksh. 1159.00
+                                                <span className='card-text text-muted p-span'>incl.VAT</span>
+                                            </p>
+                                        </div>
+                                        <div className='btn-wrapper'>
+                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
+                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
+                                        </div>
+                                        <div className=''>
+                                        <p className='card-text f-text text-success'>In stock.
+                                                <span className='card-text text-muted f-span'>Low stock</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                        <div className='prod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='text-wrapper'>
+                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
+                                            <p className='card-text p-title'>Ksh. 1159.00
+                                                <span className='card-text text-muted p-span'>incl.VAT</span>
+                                            </p>
+                                        </div>
+                                        <div className='btn-wrapper'>
+                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
+                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
+                                        </div>
+                                        <div className=''>
+                                        <p className='card-text f-text text-success'>In stock.
+                                                <span className='card-text text-muted f-span'>Low stock</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                        <div className='prod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='text-wrapper'>
+                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
+                                            <p className='card-text p-title'>Ksh. 1159.00
+                                                <span className='card-text text-muted p-span'>incl.VAT</span>
+                                            </p>
+                                        </div>
+                                        <div className='btn-wrapper'>
+                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
+                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
+                                        </div>
+                                        <div className=''>
+                                        <p className='card-text f-text text-success'>In stock.
+                                                <span className='card-text text-muted f-span'>Low stock</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                        <div className='prod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='text-wrapper'>
+                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
+                                            <p className='card-text p-title'>Ksh. 1159.00
+                                                <span className='card-text text-muted p-span'>incl.VAT</span>
+                                            </p>
+                                        </div>
+                                        <div className='btn-wrapper'>
+                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
+                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
+                                        </div>
+                                        <div className=''>
+                                        <p className='card-text f-text text-success'>In stock.
+                                                <span className='card-text text-muted f-span'>Low stock</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                    </div>
+                                    <p className='pp-title'>People also searched</p>
+                                    <div className='col-md-3 mt-2 mb-2'> 
+                                    <div className='card shadow-lg'>
+                                        <div className='sprod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='sprod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className=''>
+                                        <div className='stext-wrapper'>
+                                            <p className='card-text text-sm sp-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-sm text-muted sp-text'>Bosch</p>
+                                            <p className='card-text sp-title mb-2'>Ksh. 1159.00
+                                            </p>
+  
+                                        </div>
+  
+                                        <div className='sbtn-wrapper'>
+                                            <button type='button' className='btn sbbbtn btn-sm'>Add</button>
+                                            <button type='button' className='btn sbbtn btn-sm'>Add</button>
+                                        </div>
+  
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-3 mt-2 mb-2'> 
+                                    <div className='card shadow-lg'>
+                                        <div className='sprod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='sprod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className=''>
+                                        <div className='stext-wrapper'>
+                                            <p className='card-text text-sm sp-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-sm text-muted sp-text'>Bosch</p>
+                                        <p className='card-text sp-title mb-2'>Ksh. 1159.00
+                                            </p>
+                                        </div>
+  
+                                        <div className='sbtn-wrapper'>
+                                            <button type='button' className='btn sbbbtn btn-sm'>Add</button>
+                                            <button type='button' className='btn sbbtn btn-sm'>Add</button>
+                                        </div>
+  
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-3 mt-2 mb-2'> 
+                                    <div className='card shadow-lg'>
+                                        <div className='sprod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='sprod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className=''>
+                                        <div className='stext-wrapper'>
+                                            <p className='card-text text-sm sp-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-sm text-muted sp-text'>Bosch</p>
+                                            <p className='card-text sp-title mb-2'>Ksh. 1159.00
+                                            </p>
+  
+                                        </div>
+                                        <div className='sbtn-wrapper'>
+                                            <button type='button' className='btn sbbbtn btn-sm'>Add</button>
+                                            <button type='button' className='btn sbbtn btn-sm'>Add</button>
+                                        </div>
+  
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-3 mt-2 mb-2'> 
+                                    <div className='card shadow-lg'>
+                                        <div className='sprod-img-wrapper'>
+                                    <img src='https://picsum.photos/200/300' className='sprod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className=''>
+                                        <div className='stext-wrapper'>
+                                            <p className='card-text text-sm sp-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-sm text-muted sp-text'>Bosch</p>
+                                            <p className='card-text sp-title mb-2'>Ksh. 1159.00
+                                            </p>
+  
+                                        </div>
+                                        <div className='sbtn-wrapper'>
+                                            <button type='button' className='btn sbbbtn btn-sm'>Add</button>
+                                            <button type='button' className='btn sbbtn btn-sm'>Add</button>
+                                        </div>
+  
+                                    </div>
+                                </div>
+                                    </div>
 
                                 </div>
                             </div>
