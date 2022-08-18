@@ -1,6 +1,12 @@
 .nav-text{
     font-size:small;
     font-weight:bold;
-
-
+}
+.Logo{
+    top: 24px;
+    left: 138px;
+    width: 141px;
+    height: 32px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
