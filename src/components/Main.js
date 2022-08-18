@@ -14,20 +14,41 @@ function Main() {
                                 <div className='card shadow-lg mt-2 mb-2 search-card'>
                                     <div className='card-body'>
                                         <p className='card-text p-title searh-title'>Select vehicle to view compatible parts</p>
-                                        <input className='mt-2 mb-2 search-inp' type="text" placeholder='Audi'/>
+                                        <input className='search-inp' type="text" placeholder='Audi'/>
                                         <input className='mt-2 mb-2 search-inp' type="text" placeholder='A7'/>
-                                        <input className='mt-2 mb-2 search-inp' type="text" placeholder='Year'/>
-                                        <button type='button' className='btn bbbbtn mt-2 mb-2 btn-block text-white'>Find compatible parts</button>
+                                        <input className='search-inp' type="text" placeholder='Year'/>
+                                        <button type='button' className='btn bbbbtn mt-2 btn-block text-white'>Find compatible parts</button>
                                         
 
                                     </div>
                                 </div>
                                 <div className='card shadow-lg mt-2 mb-2'>
                                     <div className='card-body'>
-                                        sidebar
+                                        <p className='card-text p-title searh-title'>Merchants</p>
+
+
+                                        <button type='button' className='btn search-btn btn-block'>Search merchants</button>
+                                        <p className='card-text p-text search-p searh-title'>Featured
+                                        <span className='search-span text-muted'>Recent</span>
+                                        </p>
+                                        <div className='radio-btns'>
+                                        <div className='label-radio'>
+                                        <label className='label-txt' for="auto">AutoXpress</label>
+                                        <input type="radio" id="auto" name="fav_language" value="AutoXpress"/>
+                                        <br></br>
+                                        </div>
+                                        <div className='label-radio'>
+                                        <label className='label-txt' for="sham">Shamas</label>
+                                        <input type="radio" id="sham" name="fav_language" value="Shamas"/>
+                                        <br></br>
+                                        </div>
+                                        </div>
+                                        <button type='button' className='btn search-btn mt-2 btn-block text-white'>Find compatible parts</button>
+                                        
 
                                     </div>
-                                </div>                                
+                                </div>
+                               
                                 <div className='card shadow-lg mt-2 mb-2'>
                                     <div className='card-body'>
                                         sidebar
