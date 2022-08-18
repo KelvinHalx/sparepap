@@ -15,3 +15,47 @@
     max-height: 100%;
 
 }
+.p-title{
+    font-size: small;
+    font-weight: bold;
+}
+.p-text{
+    font-size: small;
+    font-weight: normal;
+    
+}
+.f-text{
+    font-size: x-small;
+    font-weight: bold;
+    color: green;
+    text-align: start;
+}
+.text-wrapper{
+    text-align: start;
+    line-height: 15px;
+    /* align-items: flex-start; */
+    /* justify-content: center;
+    flex-direction: column; */
+}
+.btn-wrapper{
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+.bbtn{
+    width: 100;
+
+}
+.p-span{
+    font-size: small;
+    font-weight: medium;
+    margin-left: 5px;
+
+}
+.f-span{
+    font-size: x-small;
+    font-weight: medium;
+    margin-left: 5px;
+
+}
