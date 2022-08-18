@@ -1,0 +1,63 @@
+.tags{
+    text-align: start;
+}
+.tagbtn{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+}
+.tagbtn:hover{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+
+}
+.tagspan{
+    padding-left: 10px;
+}
+.tp{
+    font-size: smaller;
+    
+}
+.tsearch{
+    outline: none;
+    border-color: palevioletred;
+}
+.aa{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.aactive{
+    background-color: palevioletred;
+    padding: 5px;
+    border-radius: 5px;
+}
+.paggination{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.iconstop{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.pages{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconn{
+    margin-left: 2px;
+    margin-right: 2px;
+}

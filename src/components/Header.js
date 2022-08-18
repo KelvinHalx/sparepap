@@ -35,23 +35,23 @@ function Header() {
           <a className="nav-link active dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Products
           </a>
-          {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a className="dropdown-item" href="#">Action</a></li>
             <li><a className="dropdown-item" href="#">Another action</a></li>
             <li><hr className="dropdown-divider"></hr></li>
             <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul> */}
+          </ul>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link active dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Accounts
           </a>
-          {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a className="dropdown-item" href="#">Action</a></li>
             <li><a className="dropdown-item" href="#">Another action</a></li>
             <li><hr className="dropdown-divider"></hr></li>
             <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul> */}
+          </ul>
         </li>
 
       </ul>
