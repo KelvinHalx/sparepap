@@ -48,16 +48,40 @@ function Main() {
 
                                     </div>
                                 </div>
-                               
                                 <div className='card shadow-lg mt-2 mb-2'>
                                     <div className='card-body'>
-                                        sidebar
+                                        <p className='card-text p-title searh-title'>Price range</p>
+                                        <div className='search-price-wrapper'>
+                                        <input className='search-price' type="text" placeholder='Min'/>
+                                        <input className='search-price' type="text" placeholder='Max'/>
+                                        </div>
+                                        <button type='button' className='btn search-btn mt-2 btn-block text-white'>Find compatible parts</button>
+                                        
 
                                     </div>
                                 </div>
                                 <div className='card shadow-lg mt-2 mb-2'>
                                     <div className='card-body'>
-                                        sidebar
+                                        <p className='card-text p-title searh-title'>Part types</p>
+                                        <div className='radio-btns'>
+                                        <div className='label-radio'>
+                                        <label className='label-txt' for="auto">Brand new</label>
+                                        <input type="checkbox" id="new" name="fav_language" value="new"/>
+                                        <br></br>
+                                        </div>
+                                        <div className='label-radio'>
+                                        <label className='label-txt' for="sham">Factory Refurbished</label>
+                                        <input type="checkbox" id="refurbished" name="fav_language" value="refurbished"/>
+                                        <br></br>
+                                        </div>
+                                        <div className='label-radio'>
+                                        <label className='label-txt' for="sham">Used/second hand</label>
+                                        <input type="checkbox" id="refurbished" name="fav_language" value="refurbished"/>
+                                        <br></br>
+                                        </div>
+                                        </div>
+                                        <button type='button' className='btn bbbbtn mt-2 btn-block text-white'>Find compatible parts</button>
+                                        
 
                                     </div>
                                 </div>
