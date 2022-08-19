@@ -1,6 +1,21 @@
 .tags{
     text-align: start;
 }
+.toptt{
+    margin-bottom: -500px;
+}
+.tp-title{
+    font-size: small;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 3px;
+}
+.topp-title{
+    font-size: x-small;
+    font-weight: bold;
+    text-align: start;
+
+}
 .tagbtn{
     background-color: #ffffff;
     color: black;
@@ -34,6 +49,13 @@
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: x-small;
+}
+.aaa{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
 }
 .aactive{
     background-color: palevioletred;

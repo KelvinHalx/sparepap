@@ -14,7 +14,7 @@ function TopBar() {
                         <div className='row mt-2 mb-2'>
                             <div className='col-md-12 mt-2 mb-2'>
                                 <div>
-                                    <p className='pp-title'>
+                                    <p className='tp-title'>
                                     Showing 10,000 results for"brake disks honda"
                                     </p>
                                 </div>
@@ -39,20 +39,20 @@ function TopBar() {
                                             <div className='col-md-3'></div>
                                             <div className='col-md-9'>
                                                 <div className='container '>
-                                            <div className='row'>
-                                                <div className='col-md-3'>
+                                            <div className='row toptt'>
+                                                <div className='col-md-3 toptt'>
                                                 
-                                                <p className='pp-title'>
+                                                <p className='topp-title'>
                                                 Showing 1-25 of 7,405
                                                 </p>
 
                                                 </div>
-                                                <div className='col-md-9'>
+                                                <div className='col-md-9 toptt'>
                                                     {/* numbers */}
                                                     {/* <div className=''>
                                                         <ul className='pagination'></ul>
                                                     </div> */}
-                                                    <div className='pages'>
+                                                    <div className='pages toptt'>
                                                     <div className=''>
                                                         <ul className="paggination">
                                                             <li className="">
@@ -77,11 +77,11 @@ function TopBar() {
                                                     <div className=''>
                                                         <ul className='iconstop'>
                                                             
-                                                            <li className="iconn">
+                                                            <li className="iconn aaa">
                                                                 <BsGrid color="palevioletred" margin="2px"/>
                                                             Grid
                                                             </li>
-                                                            <li className="iconn">
+                                                            <li className="iconn aaa">
                                                                 <BsList color="palevioletred"/> 
                                                             List
                                                             </li>

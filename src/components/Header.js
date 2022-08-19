@@ -1,70 +1,68 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Header.css';
-import sparepap from './sparepap.png';
+import logo from '../images/Logo.png';
 
-function Header() {
+
+function CollapsibleExample() {
   return (
-    <div className='container shadow-lg'>
-    {/* logo */}
+    <div className='container'> 
+        <div className='row'> 
+            <div className='col-md-1'></div>
+            <div className='col-md-10'>
 
-    {/* center */}
 
-    {/* right */}
-    <nav className="navbar navbar-expand-lg ">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">
-    <img className="Logo"src={sparepap}alt=""/>
-    </a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <form className="d-flex mx-auto">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link active nav-text" aria-current="page" href="#">Find Mechanic</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link active nav-text" href="#">Book Service</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link active dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Products
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"></hr></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link active dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Accounts
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"></hr></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light"  className="shadow-lg">
+      <Container>
+        <Navbar.Brand href="#home">
+        <img
+              src={logo}
+           
+              className="d-inline-block align-top"
+              alt="logo"
+            />
+        </Navbar.Brand>
+        
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mx-auto nn">
+            <form>
+              <input type="search" placeholder="Search..."/>
+              <button type="submit">Search</button>
+            </form>
+          </Nav>
+          <Nav >
+            <Nav.Link href="#features" className='navtitle'>Find Mechanic</Nav.Link>
+            <Nav.Link href="#pricing" className='navtitle'>Book service</Nav.Link>
+            <NavDropdown className='navtitle drop' title="Products" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1" className='navtitle'>Products</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" className='navtitle'>
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" className='navtitle'>Something</NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown className='navtitle drop' title="Accounts" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1" className='navtitle'>Accounts</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2" className='navtitle'>
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3" className='navtitle'>Something</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
 
-      </ul>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+    </div>
+            <div className='col-md-1'></div>
+
+    
+    </div>
 
     </div>
-  </div>
-</nav>
-
-
-
-      
-    </div>
-  )
+  );
 }
 
-export default Header
+export default CollapsibleExample;  

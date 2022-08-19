@@ -1,6 +1,13 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Main.css';
+import prod from '../images/prod.png';
+import xps from '../images/autoxpresslogo.png';
+import sham from '../images/shamaslogo.png';
+import promo from '../images/promo_image.png';
+
+
+import { MdOutlineAddShoppingCart, MdFavoriteBorder } from "react-icons/md";
 
 function Main() {
   return (
@@ -33,11 +40,24 @@ function Main() {
                                         </p>
                                         <div className='radio-btns'>
                                         <div className='label-radio'>
+                                        <img
+                                            src={xps}
+                                            width="20"
+                                            height="20"
+                                            alt="..."
+                                            />
+
                                         <label className='label-txt' for="auto">AutoXpress</label>
                                         <input type="radio" id="auto" name="fav_language" value="AutoXpress"/>
                                         <br></br>
                                         </div>
                                         <div className='label-radio'>
+                                        <img
+                                            src={sham}
+                                            width="20"
+                                            height="20"
+                                            alt="..."
+                                            />
                                         <label className='label-txt' for="sham">Shamas</label>
                                         <input type="radio" id="sham" name="fav_language" value="Shamas"/>
                                         <br></br>
@@ -93,7 +113,7 @@ function Main() {
                                 <div className='col-md-4 mt-2 mb-2'>
                                     <div className='card shadow-lg'>
                                         <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='prod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className='card-body'>
                                         <div className='text-wrapper'>
@@ -121,7 +141,67 @@ function Main() {
                                     <div className='col-md-4 mt-2 mb-2'>
                                     <div className='card shadow-lg'>
                                         <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='prod-img card-img-top img-fluid' alt='...' />
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='text-wrapper'>
+                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
+                                            <p className='card-text p-title'>Ksh. 1159.00
+                                                <span className='card-text text-muted p-span'>incl.VAT</span>
+                                            </p>
+                                        </div>
+                                        <div className='btn-wrapper'>
+                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
+                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
+                                        </div>
+                                        <div className=''>
+                                        <p className='card-text f-text text-success'>In stock.
+                                                <span className='card-text text-muted f-span'>Low stock</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                    <img src={promo} className=' promo-img card-img-top img-fluid' alt='...' />
+                                </div>
+                                    </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                    <img src={prod} className='prod-img card-img-top img-fluid' alt='...' />
+                                    
+                                    <div className='card-body'>
+                                        <div className='text-wrapper'>
+                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
+                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
+                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
+                                            <p className='card-text p-title'>Ksh. 1159.00
+                                                <span className='card-text text-muted p-span'>incl.VAT</span>
+                                            </p>
+                                        </div>
+                                        <div className='btn-wrapper'>
+                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
+                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
+                                        </div>
+                                        <div className=''>
+                                        <p className='card-text f-text text-success'>In stock.
+                                                <span className='card-text text-muted f-span'>Low stock</span>
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                    </div>
+                                    <div className='col-md-4 mt-2 mb-2'>
+                                    <div className='card shadow-lg'>
+                                        <div className='prod-img-wrapper'>
+                                    <img src={prod} className='prod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className='card-body'>
                                         <div className='text-wrapper'>
@@ -149,7 +229,7 @@ function Main() {
                                     <div className='col-md-4 mt-2 mb-2'>
                                     <div className='card shadow-lg'>
                                         <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='prod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className='card-body'>
                                         <div className='text-wrapper'>
@@ -177,7 +257,7 @@ function Main() {
                                     <div className='col-md-4 mt-2 mb-2'>
                                     <div className='card shadow-lg'>
                                         <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='prod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className='card-body'>
                                         <div className='text-wrapper'>
@@ -205,7 +285,7 @@ function Main() {
                                     <div className='col-md-4 mt-2 mb-2'>
                                     <div className='card shadow-lg'>
                                         <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='prod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className='card-body'>
                                         <div className='text-wrapper'>
@@ -233,91 +313,7 @@ function Main() {
                                     <div className='col-md-4 mt-2 mb-2'>
                                     <div className='card shadow-lg'>
                                         <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
-                                    </div>
-                                    <div className='card-body'>
-                                        <div className='text-wrapper'>
-                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
-                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
-                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
-                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
-                                            <p className='card-text p-title'>Ksh. 1159.00
-                                                <span className='card-text text-muted p-span'>incl.VAT</span>
-                                            </p>
-                                        </div>
-                                        <div className='btn-wrapper'>
-                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
-                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
-                                        </div>
-                                        <div className=''>
-                                        <p className='card-text f-text text-success'>In stock.
-                                                <span className='card-text text-muted f-span'>Low stock</span>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                    </div>
-                                    <div className='col-md-4 mt-2 mb-2'>
-                                    <div className='card shadow-lg'>
-                                        <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
-                                    </div>
-                                    <div className='card-body'>
-                                        <div className='text-wrapper'>
-                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
-                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
-                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
-                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
-                                            <p className='card-text p-title'>Ksh. 1159.00
-                                                <span className='card-text text-muted p-span'>incl.VAT</span>
-                                            </p>
-                                        </div>
-                                        <div className='btn-wrapper'>
-                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
-                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
-                                        </div>
-                                        <div className=''>
-                                        <p className='card-text f-text text-success'>In stock.
-                                                <span className='card-text text-muted f-span'>Low stock</span>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                    </div>
-                                    <div className='col-md-4 mt-2 mb-2'>
-                                    <div className='card shadow-lg'>
-                                        <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
-                                    </div>
-                                    <div className='card-body'>
-                                        <div className='text-wrapper'>
-                                            <p className='card-text p-title'>Bosch Front Disc Brake Rotor For Mitsubishi ASX 2014-2015</p>
-                                            <p className='card-text text-muted p-text'>Condition : Brand New</p>
-                                            <p className='card-text text-muted p-text'>Merchant : Brand New</p>
-                                            <p className='card-text text-muted p-text'>Manufacturer : Brand New</p>
-                                            <p className='card-text p-title'>Ksh. 1159.00
-                                                <span className='card-text text-muted p-span'>incl.VAT</span>
-                                            </p>
-                                        </div>
-                                        <div className='btn-wrapper'>
-                                            <button type='button' className='btn bbbtn mt-2 mb-2 btn-block'>Add to Cart</button>
-                                            <button type='button' className='btn bbtn mt-2 mb-2 btn-block'>Add to Favorites</button>
-                                        </div>
-                                        <div className=''>
-                                        <p className='card-text f-text text-success'>In stock.
-                                                <span className='card-text text-muted f-span'>Low stock</span>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                    </div>
-                                    <div className='col-md-4 mt-2 mb-2'>
-                                    <div className='card shadow-lg'>
-                                        <div className='prod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='prod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='prod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className='card-body'>
                                         <div className='text-wrapper'>
@@ -346,7 +342,7 @@ function Main() {
                                     <div className='col-md-3 mt-2 mb-2'> 
                                     <div className='card shadow-lg'>
                                         <div className='sprod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='sprod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='sprod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className=''>
                                         <div className='stext-wrapper'>
@@ -358,8 +354,13 @@ function Main() {
                                         </div>
   
                                         <div className='sbtn-wrapper'>
-                                            <button type='button' className='btn sbbbtn btn-sm'>Add</button>
-                                            <button type='button' className='btn sbbtn btn-sm'>Add</button>
+                                            <button type='button' className='btn sbbbtn btn-sm'>
+                                            <MdOutlineAddShoppingCart />
+
+                                            </button>
+                                            <button type='button' className='btn sbbtn btn-sm'>
+                                            <MdFavoriteBorder />
+                                            </button>
                                         </div>
   
                                     </div>
@@ -368,7 +369,7 @@ function Main() {
                                     <div className='col-md-3 mt-2 mb-2'> 
                                     <div className='card shadow-lg'>
                                         <div className='sprod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='sprod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='sprod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className=''>
                                         <div className='stext-wrapper'>
@@ -379,8 +380,13 @@ function Main() {
                                         </div>
   
                                         <div className='sbtn-wrapper'>
-                                            <button type='button' className='btn sbbbtn btn-sm'>Add</button>
-                                            <button type='button' className='btn sbbtn btn-sm'>Add</button>
+                                            <button type='button' className='btn sbbbtn btn-sm'>
+                                            <MdOutlineAddShoppingCart />
+
+                                            </button>
+                                            <button type='button' className='btn sbbtn btn-sm'>
+                                                <MdFavoriteBorder />
+                                            </button>
                                         </div>
   
                                     </div>
@@ -389,7 +395,7 @@ function Main() {
                                     <div className='col-md-3 mt-2 mb-2'> 
                                     <div className='card shadow-lg'>
                                         <div className='sprod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='sprod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='sprod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className=''>
                                         <div className='stext-wrapper'>
@@ -400,8 +406,13 @@ function Main() {
   
                                         </div>
                                         <div className='sbtn-wrapper'>
-                                            <button type='button' className='btn sbbbtn btn-sm'>Add</button>
-                                            <button type='button' className='btn sbbtn btn-sm'>Add</button>
+                                            <button type='button' className='btn sbbbtn btn-sm'>
+                                            <MdOutlineAddShoppingCart />
+
+                                            </button>
+                                            <button type='button' className='btn sbbtn btn-sm'>
+                                            <MdFavoriteBorder />
+                                            </button>
                                         </div>
   
                                     </div>
@@ -410,7 +421,7 @@ function Main() {
                                     <div className='col-md-3 mt-2 mb-2'> 
                                     <div className='card shadow-lg'>
                                         <div className='sprod-img-wrapper'>
-                                    <img src='https://picsum.photos/200/300' className='sprod-img card-img-top img-fluid' alt='...' />
+                                    <img src={prod} className='sprod-img card-img-top img-fluid' alt='...' />
                                     </div>
                                     <div className=''>
                                         <div className='stext-wrapper'>
@@ -421,8 +432,12 @@ function Main() {
   
                                         </div>
                                         <div className='sbtn-wrapper'>
-                                            <button type='button' className='btn sbbbtn btn-sm'>Add</button>
-                                            <button type='button' className='btn sbbtn btn-sm'>Add</button>
+                                            <button type='button' className='btn sbbbtn btn-sm'>
+                                                <MdOutlineAddShoppingCart />
+                                            </button>
+                                            <button type='button' className='btn sbbtn btn-sm'>
+                                            <MdFavoriteBorder />
+                                            </button>
                                         </div>
   
                                     </div>
